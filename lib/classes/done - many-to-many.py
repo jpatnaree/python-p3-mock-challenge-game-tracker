@@ -72,6 +72,9 @@ class Player:
         #Alternative
         # return len([ r.game for r in Result.all if r.player == self and r.game == game])
 
+    @classmethod
+    def highest_scored(game):
+        pass
 
 class Result:
 
